@@ -48,13 +48,15 @@ const Swap = () => {
           primaryColorDark={limitlessMainColor}
           borderRadius={5}
           enableDarkMode={true}   
+          affiliateFee={0.2}
+          affiliateFeeRecipient={"0x710a3ba663De2482a3725a217E1ddEAF4627c3ce"}
           predefinedTokens={[
               {
                   address: "0xC13CbF50370E5EaE6f5Dd9D8a1015007f34C4eaD",
                   chainId: 56,
                   decimals: 18,
                   hasTransactonFees: true,
-                  logoURI: "https://www.limitlessnetwork.org/_next/static/media/limitlesslogo.fef308fd.png?imwidth=640",
+                  logoURI: "https://www.limitlessnetwork.org/_next/static/media/limitlesslogo.fef308fd.png",
                   name: "Limitless Network",
                   symbol: "LNT"
               }
